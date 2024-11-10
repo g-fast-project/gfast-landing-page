@@ -33,9 +33,11 @@ jobs:
 
       - name: Build site
         run: |
-          npm run build
-          mkdir -p ./_site
-          cp -r build/* ./_site
+  run: |
+    npm install
+    npm run build
+    mkdir -p ./_site
+    cp -r build/* ./_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
