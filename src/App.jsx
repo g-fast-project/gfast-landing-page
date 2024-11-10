@@ -12,7 +12,7 @@ function App() {
             alt="logo"
           />
         </div>
-        <div className="sm:mt-44 mt-36 flex flex-col sm:gap-16 gap-10">
+        <div className="sm:mt-44 mt-20 flex flex-col sm:gap-16 gap-10">
           <p className=" sm:text-6xl text-4xl text-[#f2f2f2] text-center glow font-bold">
             Parts You Need, Speed You Deserve
           </p>
